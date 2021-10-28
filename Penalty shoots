@@ -1,0 +1,136 @@
+import  random
+
+userScore = 0
+compScore = 0
+
+a = input("Qaysi tarafga tepasiz:")
+b = ["chap","o'rta","o'ng"]
+c = random.choice(b)
+
+print("Zarbaaa")
+print("Kompyuter ",c,"ga otildi")
+if a==c:
+    print("to'sdi")
+    print("User",userScore,"komp:",compScore)
+else:
+    print("Gool")
+    userScore+=1
+    print("User", userScore, "komp:", compScore)
+ot = input("Qaysi tarafga otilasiz:")
+b = ["chap","o'rta","o'ng"]
+cd = random.choice(b)
+print("Zarbaaa")
+print("Kompyuter ",cd,"ga tepdi")
+if ot==cd:
+    print("To'sdingiz")
+    print("User", userScore, "komp:", compScore)
+else:
+    print("Gool")
+    compScore += 1
+    print("User", userScore, "komp:", compScore)
+a = input("Qaysi tarafga tepasiz:")
+b = ["chap","o'rta","o'ng"]
+c = random.choice(b)
+
+print("Zarbaaa")
+print("Kompyuter ",c,"ga otildi")
+if a==c:
+    print("to'sdi")
+    print("User",userScore,"komp:",compScore)
+else:
+    print("Gool")
+    userScore+=1
+    print("User", userScore, "komp:", compScore)
+ot = input("Qaysi tarafga otilasiz:")
+b = ["chap","o'rta","o'ng"]
+cd = random.choice(b)
+print("Zarbaaa")
+print("Kompyuter ",cd,"ga tepdi")
+if ot==cd:
+    print("To'sdingiz")
+    print("User", userScore, "komp:", compScore)
+else:
+    print("Gool")
+    compScore += 1
+    print("User", userScore, "komp:", compScore)
+a = input("Qaysi tarafga tepasiz:")
+b = ["chap","o'rta","o'ng"]
+c = random.choice(b)
+
+print("Zarbaaa")
+print("Kompyuter ",c,"ga otildi")
+if a==c:
+    print("to'sdi")
+    print("User",userScore,"komp:",compScore)
+else:
+    print("Gool")
+    userScore+=1
+    print("User", userScore, "komp:", compScore)
+ot = input("Qaysi tarafga otilasiz:")
+b = ["chap","o'rta","o'ng"]
+cd = random.choice(b)
+print("Zarbaaa")
+print("Kompyuter ",cd,"ga tepdi")
+if ot==cd:
+    print("To'sdingiz")
+    print("User", userScore, "komp:", compScore)
+else:
+    print("Gool")
+    compScore += 1
+    print("User", userScore, "komp:", compScore)
+a = input("Qaysi tarafga tepasiz:")
+b = ["chap","o'rta","o'ng"]
+c = random.choice(b)
+
+print("Zarbaaa")
+print("Kompyuter ",c,"ga otildi")
+if a==c:
+    print("to'sdi")
+    print("User",userScore,"komp:",compScore)
+else:
+    print("Gool")
+    userScore+=1
+    print("User", userScore, "komp:", compScore)
+ot = input("Qaysi tarafga otilasiz:")
+b = ["chap","o'rta","o'ng"]
+cd = random.choice(b)
+print("Zarbaaa")
+print("Kompyuter ",cd,"ga tepdi")
+if ot==cd:
+    print("To'sdingiz")
+    print("User", userScore, "komp:", compScore)
+else:
+    print("Gool")
+    compScore += 1
+    print("User", userScore, "komp:", compScore)
+a = input("Qaysi tarafga tepasiz:")
+b = ["chap","o'rta","o'ng"]
+c = random.choice(b)
+
+print("Zarbaaa")
+print("Kompyuter ",c,"ga otildi")
+if a==c:
+    print("to'sdi")
+    print("User",userScore,"komp:",compScore)
+else:
+    print("Gool")
+    userScore+=1
+    print("User", userScore, "komp:", compScore)
+ot = input("Qaysi tarafga otilasiz:")
+b = ["chap","o'rta","o'ng"]
+cd = random.choice(b)
+print("Zarbaaa")
+print("Kompyuter ",cd,"ga tepdi")
+if ot==cd:
+    print("To'sdingiz")
+    print("User", userScore, "komp:", compScore)
+else:
+    print("Gool")
+    compScore += 1
+    print("User", userScore, "komp:", compScore)
+if userScore>compScore:
+    print("yutdingiz")
+elif compScore>userScore:
+    print("Yutqazdingiz")
+else:
+    print("Durrang")
